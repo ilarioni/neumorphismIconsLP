@@ -20,7 +20,7 @@ h1 {
 }
 a {
     display: flex;
-    background: #ddd;
+    background: #e3edf7;
     height: 75px;
     width: 75px;
     margin: 0 15px;
@@ -28,4 +28,9 @@ a {
     align-items: center;
     justify-content: center;
     text-decoration: none;
+    box-shadow: 6px 6px 10px -1px rgba(0,0,0,0.15), -6px -6px 10px -1px rgba(255,255,255,0.7);
+}
+a i {
+    font-size: 35px;
+    color: #777;
 }
